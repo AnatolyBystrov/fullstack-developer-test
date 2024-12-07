@@ -6,7 +6,6 @@ body {
     background: #f3f4f6;
     color: #333;
   }
-  
   /* Общие стили ссылок */
   a {
     text-decoration: none;
@@ -105,6 +104,8 @@ body {
     border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Делаем элемент блочным */
     animation: pulse 2s infinite;
     transition: background 0.3s ease, transform 0.3s ease;
   }
@@ -165,12 +166,6 @@ body {
     font-size: 1rem;
     color: #555;
     line-height: 1.4;
-  }
-  
-  /* Дополнительное оформление текста */
-  .service-card h3,
-  .service-card p {
-    text-align: center;
   }
   
   /* Секции */
